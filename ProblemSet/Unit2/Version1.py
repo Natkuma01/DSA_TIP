@@ -47,7 +47,6 @@ print(flatten_list(nested_list))
 
 # ============ Problem 4 ================
  
- 	
 def find_key(nested_dict, key):
     for inner_dict in nested_dict.values():
         if key in inner_dict:
